@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RickandMorty</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="">
+    <header class="container-full">
+      <div class="container container-header">
+        <a class="title" href="index.html">Rick and Morty</a>
+        <div class="container-options-header">
+          <span id="todos">TODOS</span>
+          <span id="mujeres">Mujeres</span>
+          <span id="hombres">Hombres</span>
+        </div>
+      </div>
+    </header>
+    <section class="container container-total">
+      <span id="cantPersonajes"></span>
+      <span id="cantPaginas"></span>
+    </section>
+    <article class="container">
+      <div class="container-cards" id="container-cards"></div>
+      <div class="container-btn">
+        <button id="inicio"><<</button>
+        <button type="button" class="btn-prev" id="btnPrev">Anterior</button>
+        <button type="button" class="btn-next" id="btnNext">Siguiente</button>
+        <button id="final">>></button>
+      </div>
+    </article>
+    <script src="getFetch.js"></script>
+  </body>
+</html>

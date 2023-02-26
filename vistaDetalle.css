@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container-header {
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 18px;
+}
+.container-detalle {
+  background-color: #ddd;
+  display: grid;
+  grid-template-rows: repeat(1, minmax(150px, min-content));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.imgDetail {
+  margin: 0 auto;
+}
+.container-episodio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container-lista {
+  width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.container-lista ul {
+  padding: 40px;
+}
